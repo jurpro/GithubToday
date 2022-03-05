@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">GithubToday</string>
+    <string name="user_list">User List</string>
+    <string name="user_list_activity">User List Activity</string>
+    <string name="intro_muka">Github Today adalah aplikasi Github User yang kami kembangkan untuk memenuhi keinginan pengguna github di Indonesia yang mengharapkan adanya suatu rangkuman tentang para pakar programmer dan developer dari seluruh dunia yang mempunyai skill pemrograman melalui beragam bahasa, seperti Kotlin, Java, Swift, C, C++ JavaSript, Phyton, dan lain sebagainya. \n \nSemoga dengan adanya aplikasi ini dapat membantu pengguna Github di Indonesia untuk menemukan rujukan yang diinginkan.</string>
+    <string name="copyright">Copyright &#169; 2022. \nLukmanul Hakim - A2013F1357 \nBangkit 2022</string>
+    <string name="logo_github">Logo Github</string>
+    <string name="name">Nama Lengkap</string>
+    <string name="username">Username</string>
+    <string name="description">Deskripsi</string>
+
+    <string-array name="data_name">
+        <item>Jake Wharton</item>
+        <item>Amit Shekhar</item>
+        <item>Romain Guy</item>
+        <item>Chris Banes</item>
+        <item>David (javalin.io)</item>
+        <item>Ravi Tamada</item>
+        <item>Deny Prasetyo</item>
+        <item>Budi Oktaviyan</item>
+        <item>Hendi Santika</item>
+        <item>Sidiq Permana</item>
+        <item>Lukmanul Hakim</item>
+        <item>Alexander Udalov</item>
+        <item>Natalia Selezneva</item>
+        <item>Stanislav Erokhin</item>
+        <item>Victor Petukhov</item>
+        <item>Vladimir Dolzhenko</item>
+        <item>Andrew Trick</item>
+        <item>adrian-prantl</item>
+        <item>Becca Royal-Gordon</item>
+        <item>Adi Andrea</item>
+        <item>Graydon Hoare</item>
+        <item>Huon Wilson</item>
+        <item>Alexander Likhachev</item>
+        <item>Maxim Shafirov</item>
+        <item>Ilya Ryzhenkov</item>
+        <item>Vitaliy Bibaev</item>
+        <item>Alexander Shabalin</item>
+        <item>Mads Sig Ager</item>
+        <item>asedunov</item>
+        <item>Denis Zharkov</item>
+    </string-array>
+
+    <string-array name="data_about_user">
+        <item>No information available.</item>
+        <item>Co-Founder &#64; CuriousJr, MindOrks, AfterAcademy &#124; Educator &#124; Startup Advisor &#124; Technology, Product, Growth &#124; Open Source Contributor</item>
+        <item>Engineering director at Google on Android</item>
+        <item>No information available</item>
+        <item>Creator of https://javalin.io (https://github.com/tipsy/javalin)</item>
+        <item>Founder of androidhive.info &amp; droid5.com</item>
+        <item>Kotlin and Container Technology Enthusiast!</item>
+        <item>The only way to do a great work is to love what you do</item>
+        <item>I am a father and software developer. Love Coding, Software Development, Community Leader of &#64;jvmdeveloperid, &#64;KotlinID &amp;&amp; &#64;IDDevOps</item>
+        <item>No information available</item>
+        <item>Student</item>
+        <item>No information available</item>
+        <item>Hi, I'm Natalia Selezneva I work the in Kotlin team</item>
+        <item>Hi, I'm Stanislav Erokhin I work in Kotlin team</item>
+        <item>Software developer for Kotlin Compiler &#64; JetBrains, computer science researcher &#64; ITMO University</item>
+        <item>Hi, I'm Vladimir Dolzhenko I work in the Kotlin team</item>
+        <item>No information available</item>
+        <item>No information available.</item>
+        <item>Swift compiler engineer.</item>
+        <item>Android Engineer</item>
+        <item>No information available.</item>
+        <item>Formerly: @data61, Swift frontend @apple, core team &#64;rust-lang. he&#47;him</item>
+        <item>( ಠ益ಠ)</item>
+        <item>No information available.</item>
+        <item>JetBrains. Now Kotlin and IntelliJ. Previously ReSharper.</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/user1</item>
+        <item>@drawable/user2</item>
+        <item>@drawable/user3</item>
+        <item>@drawable/user4</item>
+        <item>@drawable/user5</item>
+        <item>@drawable/user6</item>
+        <item>@drawable/user7</item>
+        <item>@drawable/user8</item>
+        <item>@drawable/user9</item>
+        <item>@drawable/user10</item>
+        <item>@drawable/user11</item>
+        <item>@drawable/user12</item>
+        <item>@drawable/user13</item>
+        <item>@drawable/user14</item>
+        <item>@drawable/user15</item>
+        <item>@drawable/user16</item>
+        <item>@drawable/user17</item>
+        <item>@drawable/user18</item>
+        <item>@drawable/user19</item>
+        <item>@drawable/user20</item>
+        <item>@drawable/user21</item>
+        <item>@drawable/user22</item>
+        <item>@drawable/user23</item>
+        <item>@drawable/user24</item>
+        <item>@drawable/user25</item>
+        <item>@drawable/user26</item>
+        <item>@drawable/user27</item>
+        <item>@drawable/user28</item>
+        <item>@drawable/user29</item>
+        <item>@drawable/user30</item>
+    </string-array>
+</resources>

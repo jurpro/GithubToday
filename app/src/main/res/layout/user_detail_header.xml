@@ -1,6 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_photo_detail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085"
+        tools:ignore="ContentDescription"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/text_detail_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/name"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_photo_detail" />
+
+    <TextView
+        android:id="@+id/text_detail_followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/followers"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/text_detail_following"
+        app:layout_constraintEnd_toEndOf="@+id/text_detail_followers_detail"
+        app:layout_constraintStart_toStartOf="@+id/text_detail_followers_detail"
+        app:layout_constraintTop_toBottomOf="@+id/text_detail_nama"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/text_detail_following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/following"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/text_detail_nama"
+        app:layout_constraintStart_toStartOf="@+id/text_detail_nama"
+        app:layout_constraintTop_toBottomOf="@+id/text_detail_nama"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/text_detail_stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/starsGithub"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/text_detail_following"
+        app:layout_constraintEnd_toEndOf="@+id/text_detail_stars_detail"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="@+id/text_detail_stars_detail"
+        app:layout_constraintTop_toBottomOf="@+id/text_detail_nama"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/text_detail_followers_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/followers_detail"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/text_detail_following_detail"
+        app:layout_constraintTop_toBottomOf="@+id/text_detail_followers"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/text_detail_following_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/following_detail"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/text_detail_following"
+        app:layout_constraintStart_toStartOf="@+id/text_detail_following"
+        app:layout_constraintTop_toBottomOf="@+id/text_detail_following"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/text_detail_stars_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/starsGithub_detail"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toEndOf="@+id/text_detail_following_detail"
+        app:layout_constraintTop_toBottomOf="@+id/text_detail_stars"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_share_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_detail_following_detail"
+        app:layout_constraintVertical_bias="0.036"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_favorite_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/favorite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_share_detail"
+        app:layout_constraintTop_toBottomOf="@+id/text_detail_following_detail"
+        app:layout_constraintVertical_bias="0.036"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutMeActivity"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title="@string/about_my_profile" />
+        <item
+            android:id="@+id/myFavoriteActivity"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="@string/menu_favorite" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+    </group>
+
+    <item android:title="@string/menu_setting">
+        <menu>
+            <item
+                android:id="@+id/nav_themeActivity"
+                android:icon="@drawable/baseline_manage_accounts_24"
+                android:title="@string/menu_theme" />
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/baseline_local_hospital_24"
+                android:title="@string/menu_covid" />
+            <item
+                android:id="@+id/nav_calendar"
+                android:icon="@drawable/baseline_calendar_today_24"
+                android:title="@string/menu_calendar" />
+            <item
+                android:id="@+id/nav_flight"
+                android:icon="@drawable/baseline_flight_24"
+                android:title="@string/menu_flight" />
+        </menu>
+    </item>
+    <item android:title="@string/about_us">
+        <menu>
+            <item
+                android:id="@+id/aboutUsFragment"
+                android:icon="@drawable/baseline_workspace_premium_24"
+                android:title="@string/about_us" />
+        </menu>
+    </item>
+</menu>

@@ -26,4 +26,3 @@
 10. Migrasi dari Material 2 ke Material 3.
 11. Mengganti menu Search by Company dengan My Favorite.
 
-![Screenshot_20220414_210052](https://user-images.githubusercontent.com/5201127/163407164-6fd447f7-8d5a-4d4f-9e22-6c22546939b2.png)

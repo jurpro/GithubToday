@@ -1,13 +1,141 @@
 <resources>
-    <string name="app_name">GithubToday</string>
-    <string name="user_list">User List</string>
+    <string name="app_name">Github Today</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Lukmanul Hakim - A2013F1357</string>
+    <string name="nav_header_subtitle">MD-07 - &#169; Bangkit 2022</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_favorite">My Favorite</string>
+    <string name="menu_theme">Ganti Thema</string>
+    <string name="menu_calendar">Atur Kalender</string>
+    <string name="menu_covid">Cek-in Peduli Lindungi</string>
+    <string name="menu_flight">Atur Penerbangan</string>
+
+    <string name="dark_mode">Dark Mode</string>
+
+    <string name="user_list">User List Application</string>
     <string name="user_list_activity">User List Activity</string>
-    <string name="intro_muka">Github Today adalah aplikasi Github User yang kami kembangkan untuk memenuhi keinginan pengguna github di Indonesia yang mengharapkan adanya suatu rangkuman tentang para pakar programmer dan developer dari seluruh dunia yang mempunyai skill pemrograman melalui beragam bahasa, seperti Kotlin, Java, Swift, C, C++ JavaSript, Phyton, dan lain sebagainya. \n \nSemoga dengan adanya aplikasi ini dapat membantu pengguna Github di Indonesia untuk menemukan rujukan yang diinginkan.</string>
-    <string name="copyright">Copyright &#169; 2022. \nLukmanul Hakim - A2013F1357 \nBangkit 2022</string>
+    <string name="github_user_list">Github User List</string>
+    <string name="detail_github_user">Detail Pengguna</string>
+    <string name="github_user_list_title">Daftar Pengguna Github</string>
+    <string name="intro_muka">"Github Today - List User Application Version 1.0 alphaBeta 2022.\nGithub Today - List User Application adalah aplikasi Github User yang kami kembangkan untuk memenuhi keinginan pengguna github di Indonesia yang mengharapkan adanya suatu rangkuman tentang para pakar programmer dan developer dari seluruh dunia yang mempunyai skill pemrograman melalui beragam bahasa, seperti Kotlin, Java, Swift, C, C++ JavaSript, Phyton, dan lain sebagainya. \n \nSemoga dengan adanya aplikasi ini dapat membantu pengguna Github di Indonesia untuk menemukan rujukan yang diinginkan.\nWhat's new in 1.0 alphaBeta 2022 version?\n1. Search user pada halaman utama.\n2. About us bisa diakses terpisah.\n3. Myprofile dapat diakses terpisah.\n\n Enjoy your new application."</string>
+    <string name="copyright">Copyright &#169; 2022. \nLukmanul Hakim - A2013F1357 \nBangkit 2022\n\nVersi 1.0 AlphaBeta 2022</string>
     <string name="logo_github">Logo Github</string>
     <string name="name">Nama Lengkap</string>
     <string name="username">Username</string>
     <string name="description">Deskripsi</string>
+    <string name="location">Lokasi</string>
+    <string name="since">Aktif sejak</string>
+    <string name="repository">Repositori</string>
+    <string name="company">Perusahaan</string>
+    <string name="followers">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="photo">Avatar</string>
+    <string name="email">Email</string>
+    <string name="about_user">Tentang User</string>
+    <string name="website">Website</string>
+    <string name="twitter">Akun twitter</string>
+    <string name="project">Project</string>
+    <string name="packageGithub">Package</string>
+    <string name="starsGithub">Stars</string>
+    <string name="languageGithub">Bahasa Pemrograman</string>
+    <string name="achievements">Achievement</string>
+    <string name="original_project">Original Project</string>
+    <string name="search_by_name">Search by Name</string>
+    <string name="search_by_country">Search by\nCountry</string>
+    <string name="copyright_icon">Copyright by https://www.freeiconspng.com/images/android-icon</string>
+    <string name="copyright_github">Copyright by Github</string>
+    <string name="copyright_lukman">Myn own image</string>
+    <string name="copyright_community">Courtsey https://www.123rf.com</string>
+    <string name="description_search">Silahkan masukkan nama user Github \nyang ingin Anda cari.</string>
+    <string name="description_favorite">Halaman Favorit ini masih belum ada yang didaftarkan sebagai favorit. \n\n\n Silakan kembali ke beranda halaman untuk selanjutnya mencari user Github favorit anda.</string>
+    <string name="count_user">Jumlah Ditemukan</string>
+    <string name="about_application">About Us</string>
+    <string name="about_my_profile">My Profile</string>
+    <string name="to_peduli_lindung">Cek-in Peduli Lindungi</string>
+    <string name="result_user">Pencarian</string>
+    <string name="back_main_activity">Kembali ke Halaman Utama</string>
+    <string name="alamat_url">Alamat URL</string>
+    <string name="detail_search_user">Detail User Github</string>
+    <string name="detail_avatar">Profile avatar</string>
+    <string name="detail_username">Profile username</string>
+    <string name="detail_name">Profile nama lengkap</string>
+    <string name="detail_company">Profile company</string>
+    <string name="repositories_detail">Repositori</string>
+    <string name="content_company">icon Company</string>
+    <string name="content_location">icon Location</string>
+    <string name="content_repo">icon Repository</string>
+    <string name="content_follow">icon Follow</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="tab_text_3">Detail</string>
+    <string name="content_tab_detail">Detail User</string>
+    <string name="content_tab_followers">Followers disini</string>
+    <string name="content_tab_following">Following disini</string>
+    <string name="back_home">Home</string>
+    <string name="my_account">jurpro</string>
+
+    <string name="title">Judul</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Date</string>
+    <string name="message_undo">Batalkan menghapus item sebelumnya?</string>
+    <string name="message_ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="empty">Field can not be blank</string>
+    <string name="update">Update</string>
+    <string name="change">Ubah</string>
+    <string name="add">Tambah</string>
+    <string name="save">Simpan</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="message_cancel">Apakah anda ingin membatalkan perubahan pada form?</string>
+    <string name="message_delete">Apakah anda yakin ingin menghapus item ini?</string>
+    <string name="added">Berhasil ditambahkan ke daftar Favorit Anda</string>
+    <string name="changed">Satu item berhasil diubah</string>
+    <string name="deleted">Satu item berhasil dihapus</string>
+    <string name="added_to_favorite">Berhasil ditambahkan ke daftar Favorit Anda</string>
+    <string name="delete_from_favorite">Berhasil dihapus dari daftar Favorit Anda</string>
+
+    <string name="user_detail">Detail User</string>
+    <string name="username_detail">Username</string>
+    <string name="location_detail">Lokasi</string>
+    <string name="repository_detail">Repository saat ini</string>
+    <string name="project_detail">Project Saat ini</string>
+    <string name="packageGithub_detail">Package Github</string>
+    <string name="company_detail">Perusahaan</string>
+    <string name="since_detail">Sejak</string>
+    <string name="languageGithub_detail">Bahasa Pemrograman</string>
+    <string name="achievements_detail">Achievement</string>
+    <string name="email_detail">Email</string>
+    <string name="website_detail">Website</string>
+    <string name="twitte_detail">Twitter</string>
+    <string name="about_user_detail">Bio</string>
+    <string name="detail_user_account">Detail User Github</string>
+    <string name="followers_detail">Pengikut</string>
+    <string name="following_detail">Mengikuti</string>
+    <string name="starsGithub_detail">Stars</string>
+    <string name="share">Share</string>
+    <string name="favorite">My Favorite</string>
+    <string name="search">Cari</string>
+    <string name="search_hint">Masukkan Nama</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="menu_2">Menu 2</string>
+    <string name="avatar">https://avatars.githubusercontent.com/u/5201127?v=4</string>
+    <string name="user">Lukmanul Hakim</string>
+    <string name="show_list_users">Show me list of Github users</string>
+    <string name="last_update">Update</string>
+    <string name="last_update_detail">Update</string>
+    <string name="hireable">Menerima Pekerjaan</string>
+    <string name="hireable_detail">Menerima Pekerjaan</string>
+    <string name="content_tab_text">This is %1$d</string>
+    <string name="about_us">Tentang Kami</string>
 
     <string-array name="data_name">
         <item>Jake Wharton</item>
@@ -43,31 +171,361 @@
     </string-array>
 
     <string-array name="data_about_user">
+        <item>"No information available".</item>
+        <item>"Co-Founder &#64;  CuriousJr, MindOrks, AfterAcademy &#124; Educator &#124; Startup Advisor &#124; Technology, Product, Growth &#124; Open Source Contributor"</item>
+        <item>"Engineering director at Google on Android"</item>
+        <item>"No information available"</item>
+        <item>"Creator of https://javalin.io (https://github.com/tipsy/javalin)"</item>
+        <item>"Founder of androidhive.info &amp; droid5.com"</item>
+        <item>"Kotlin and Container Technology Enthusiast!"</item>
+        <item>"The only way to do a great work is to love what you do"</item>
+        <item>"I am a father and software developer. Love Coding, Software Development, Community Leader of &#64;jvmdeveloperid, &#64;KotlinID &amp;&amp; &#64;IDDevOps"</item>
+        <item>"No information available"</item>
+        <item>"Student"</item>
+        <item>"No information available"</item>
+        <item>"Hi, I'm Natalia Selezneva I work the in Kotlin team"</item>
+        <item>"Hi, I'm Stanislav Erokhin I work in Kotlin team"</item>
+        <item>"Software developer for Kotlin Compiler &#64; JetBrains, computer science researcher &#64; ITMO University"</item>
+        <item>"Hi, I'm Vladimir Dolzhenko I work in the Kotlin team"</item>
+        <item>"No information available"</item>
+        <item>"No information available."</item>
+        <item>"Swift compiler engineer."</item>
+        <item>"Android Engineer"</item>
+        <item>"No information available."</item>
+        <item>"Formerly: @data61, Swift frontend @apple, core team &#64;rust-lang. he&#47;him"</item>
+        <item>"( ಠ益ಠ)"</item>
+        <item>"No information available."</item>
+        <item>"JetBrains. Now Kotlin and IntelliJ. Previously ReSharper."</item>
+        <item>"No information available."</item>
+        <item>"No information available."</item>
+        <item>"No information available."</item>
+        <item>"No information available."</item>
+        <item>"No information available."</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://avatars.githubusercontent.com/u/66577?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/9877145?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/869684?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/227486?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/1521451?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/497670?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/363917?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/2031493?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/3713580?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/4090245?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/5201127?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/292714?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/968879?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/1935285?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/3183892?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/209440?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/2165663?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/2251653?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/931226?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/12887683?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/14097?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/1203825?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/1221596?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/121982?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/616841?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/7608535?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/399115?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/2909286?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/2734357?v=4</item>
+        <item>https://avatars.githubusercontent.com/u/863207?v=4</item>
+    </string-array>
+
+    <string-array name="data_location">
+        <item>Pittsburgh, PA, USA</item>
+        <item>New Delhi, India</item>
+        <item>California</item>
+        <item>Bath, UK</item>
+        <item>Trondheim, Norway</item>
+        <item>India</item>
+        <item>Kotagede, Yogyakarta, Indonesia</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Bojongsoang - Bandung Jawa Barat</item>
+        <item>Jakarta Indonesia</item>
+        <item>Bandung, Indonesia</item>
+        <item>Amsterdam, the Netherlands</item>
+        <item>Saint-Petersburg</item>
+        <item>Amsterdam</item>
+        <item>St. Petersburg, Russia</item>
+        <item>The Netherlands</item>
         <item>No information available.</item>
-        <item>Co-Founder &#64; CuriousJr, MindOrks, AfterAcademy &#124; Educator &#124; Startup Advisor &#124; Technology, Product, Growth &#124; Open Source Contributor</item>
-        <item>Engineering director at Google on Android</item>
+        <item>No information available.</item>
+        <item>Cupertino, CA</item>
+        <item>Denpasar, Bali</item>
+        <item>Vancouver, BC</item>
+        <item>Sydney, Australia</item>
+        <item>St. Petersburg</item>
+        <item>St.Petersburg, Russia</item>
+        <item>St.Petersburg</item>
+        <item>Saint Petersburg</item>
+        <item>Saint Petersburg, Russia</item>
+        <item>Aarhus, Denmark</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+    </string-array>
+
+    <string-array name="data_since">
+        <item>November 5, 2008</item>
+        <item>November 21, 2014</item>
+        <item>June 23, 2011</item>
+        <item>March 22, 2010</item>
+        <item>March 10, 2012</item>
+        <item>November 26, 2010</item>
+        <item>August 14, 2010</item>
+        <item>July 24, 2012</item>
+        <item>February 27, 2013</item>
+        <item>April 8, 2013</item>
+        <item>August 10, 2013</item>
+        <item>June 1, 2010</item>
+        <item>August 9, 2011</item>
+        <item>July 7, 2012</item>
+        <item>January 4, 2013</item>
+        <item>February 24, 2010</item>
+        <item>January 2, 2012</item>
+        <item>August 31, 2012</item>
+        <item>July 21, 2011</item>
+        <item>June 15, 2015</item>
+        <item>January 26, 2008</item>
+        <item>August 18, 2011</item>
+        <item>November 26, 2011</item>
+        <item>January 13, 2005</item>
+        <item>February 14, 2011</item>
+        <item>May 17, 2014</item>
+        <item>September 14, 2010</item>
+        <item>January 4, 2012</item>
+        <item>November 6, 2012</item>
+        <item>June 20, 2011</item>
+    </string-array>
+
+    <string-array name="data_username">
+        <item>JakeWharton</item>
+        <item>amitshekhariitbhu</item>
+        <item>romainguy</item>
+        <item>chrisbanes</item>
+        <item>tipsy</item>
+        <item>ravi8x</item>
+        <item>jasoet</item>
+        <item>budioktaviyan</item>
+        <item>hendisantika</item>
+        <item>sidiqpermana</item>
+        <item>jurpro</item>
+        <item>udalov</item>
+        <item>NataliaUkhorskaya</item>
+        <item>erokhins</item>
+        <item>petukhovv</item>
+        <item>vladimirdolzhenko</item>
+        <item>atrick</item>
+        <item>adrian-prantl</item>
+        <item>beccadax</item>
+        <item>dekzitfz</item>
+        <item>graydon</item>
+        <item>huonw</item>
+        <item>ALikhachev</item>
+        <item>shafirov</item>
+        <item>orangy</item>
+        <item>bibaev</item>
+        <item>projedi</item>
+        <item>madsager</item>
+        <item>asedunov</item>
+        <item>dzharkov</item>
+    </string-array>
+
+    <integer-array name="data_repository">
+        <item>121</item>
+        <item>37</item>
+        <item>14</item>
+        <item>36</item>
+        <item>63</item>
+        <item>31</item>
+        <item>51</item>
+        <item>73</item>
+        <item>1382</item>
+        <item>74</item>
+        <item>5</item>
+        <item>43</item>
+        <item>7</item>
+        <item>53</item>
+        <item>54</item>
+        <item>17</item>
+        <item>13</item>
+        <item>11</item>
+        <item>57</item>
+        <item>54</item>
+        <item>554</item>
+        <item>276</item>
+        <item>30</item>
+        <item>11</item>
+        <item>45</item>
+        <item>49</item>
+        <item>58</item>
+        <item>6</item>
+        <item>4</item>
+        <item>44</item>
+    </integer-array>
+
+    <integer-array name="data_followers">
+        <item>62200</item>
+        <item>6300</item>
+        <item>9000</item>
+        <item>16900</item>
+        <item>966</item>
+        <item>2200</item>
+        <item>315</item>
+        <item>252</item>
+        <item>1100</item>
+        <item>588</item>
+        <item>0</item>
+        <item>305</item>
+        <item>71</item>
+        <item>71</item>
+        <item>23</item>
+        <item>35</item>
+        <item>310</item>
+        <item>335</item>
+        <item>121</item>
+        <item>76</item>
+        <item>3800</item>
+        <item>546</item>
+        <item>20</item>
+        <item>163</item>
+        <item>176</item>
+        <item>13</item>
+        <item>11</item>
+        <item>32</item>
+        <item>18</item>
+        <item>93</item>
+    </integer-array>
+
+    <integer-array name="data_following">
+        <item>9</item>
+        <item>2</item>
+        <item>0</item>
+        <item>3</item>
+        <item>0</item>
+        <item>3</item>
+        <item>39</item>
+        <item>31</item>
+        <item>62</item>
+        <item>13</item>
+        <item>0</item>
+        <item>24</item>
+        <item>0</item>
+        <item>0</item>
+        <item>40</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>81</item>
+        <item>447</item>
+        <item>10</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>7</item>
+        <item>3</item>
+        <item>4</item>
+        <item>0</item>
+        <item>21</item>
+    </integer-array>
+
+    <string-array name="data_email">
+        <item>j&#64;ke.fyi</item>
+        <item>amit.shekhar.iitbhu&#64;gmail.com</item>
+        <item>romainguy&#64;curious-creature.com</item>
         <item>No information available</item>
-        <item>Creator of https://javalin.io (https://github.com/tipsy/javalin)</item>
-        <item>Founder of androidhive.info &amp; droid5.com</item>
-        <item>Kotlin and Container Technology Enthusiast!</item>
-        <item>The only way to do a great work is to love what you do</item>
-        <item>I am a father and software developer. Love Coding, Software Development, Community Leader of &#64;jvmdeveloperid, &#64;KotlinID &amp;&amp; &#64;IDDevOps</item>
+        <item>davidaase&#64;hotmail.com</item>
+        <item>ravi8x&#64;gmail.com</item>
+        <item>jasoet87&#64;gmail.com</item>
+        <item>budioktaviyans&#64;gmail.com</item>
+        <item>hendisantika&#64;yahoo.co.id</item>
+        <item>permana.sidiq&#64;gmail.com</item>
+        <item>jurpro.online&#64;gmail.com</item>
         <item>No information available</item>
-        <item>Student</item>
+        <item>natalia.selezneva&#64;jetbrains.com</item>
         <item>No information available</item>
-        <item>Hi, I'm Natalia Selezneva I work the in Kotlin team</item>
-        <item>Hi, I'm Stanislav Erokhin I work in Kotlin team</item>
-        <item>Software developer for Kotlin Compiler &#64; JetBrains, computer science researcher &#64; ITMO University</item>
-        <item>Hi, I'm Vladimir Dolzhenko I work in the Kotlin team</item>
+        <item>No information available</item>
+        <item>No information available</item>
+        <item>atrick&#64;apple.com</item>
+        <item>No information available.</item>
+        <item>becca&#64;beccadax.com</item>
+        <item>dekz.itfz&#64;gmail.com</item>
+        <item>graydon&#64;pobox.com</item>
+        <item>wilson.huon&#64;gmail.com</item>
+        <item>No information available.</item>
+        <item>max&#64;jetbrains.com</item>
+        <item>No information available.</item>
+        <item>vitaliy.bibaev&#64;jetbrains.com</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>alexey.sedunov&#64;gmail.com</item>
+        <item>No information available.</item>
+    </string-array>
+
+    <string-array name="data_company">
+        <item>\@Cash app</item>
+        <item>MindOrksOpenSource</item>
+        <item>Google</item>
+        <item>Android Developer</item>
+        <item>Working Group Two</item>
+        <item>AndroidHive | Droid5</item>
+        <item>gojek-engineering</item>
+        <item>Grab</item>
+        <item>JVMDeveloperID &#64;KotlinID &#64;IDDevOps</item>
+        <item>Nusantara Beta Studio</item>
+        <item>Universitas Terbuka</item>
+        <item>JetBrains</item>
+        <item>JetBrains</item>
+        <item>JetBrains</item>
+        <item>\@JetBrains</item>
+        <item>JetBrains</item>
         <item>No information available</item>
         <item>No information available.</item>
-        <item>Swift compiler engineer.</item>
-        <item>Android Engineer</item>
+        <item>apple</item>
         <item>No information available.</item>
-        <item>Formerly: @data61, Swift frontend @apple, core team &#64;rust-lang. he&#47;him</item>
-        <item>( ಠ益ಠ)</item>
         <item>No information available.</item>
-        <item>JetBrains. Now Kotlin and IntelliJ. Previously ReSharper.</item>
+        <item>No information available.</item>
+        <item>\@JetBrains</item>
+        <item>JetBrains</item>
+        <item>JetBrains</item>
+        <item>JetBrains</item>
+        <item>\@JetBrains</item>
+        <item>Google</item>
+        <item>No information available.</item>
+        <item>\@JetBrains</item>
+    </string-array>
+
+    <string-array name="data_website">
+        <item>jakewharton.com</item>
+        <item>https://amitshekhar.me</item>
+        <item>https://www.curious-creature.com</item>
+        <item>https://chris.banes.me</item>
+        <item>https://davidaase.com</item>
+        <item>www.androidhive.info</item>
+        <item>https://twitter.com/jasoet</item>
+        <item>https://budioktaviyan.github.io</item>
+        <item>https://linktr.ee/hendisantika</item>
+        <item>http://sidiqpermana.com</item>
+        <item>No information available</item>
+        <item>udalov.org</item>
+        <item>No information available</item>
+        <item>No information available</item>
+        <item>No information available</item>
+        <item>dolzhenko.blogspot.com</item>
+        <item>No information available</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>adiandrea.id</item>
+        <item>No information available.</item>
+        <item>https://huonw.github.io/</item>
+        <item>No information available.</item>
+        <item>http://jetbrains.com</item>
+        <item>No information available.</item>
         <item>No information available.</item>
         <item>No information available.</item>
         <item>No information available.</item>
@@ -75,36 +533,202 @@
         <item>No information available.</item>
     </string-array>
 
-    <string-array name="data_photo">
-        <item>@drawable/user1</item>
-        <item>@drawable/user2</item>
-        <item>@drawable/user3</item>
-        <item>@drawable/user4</item>
-        <item>@drawable/user5</item>
-        <item>@drawable/user6</item>
-        <item>@drawable/user7</item>
-        <item>@drawable/user8</item>
-        <item>@drawable/user9</item>
-        <item>@drawable/user10</item>
-        <item>@drawable/user11</item>
-        <item>@drawable/user12</item>
-        <item>@drawable/user13</item>
-        <item>@drawable/user14</item>
-        <item>@drawable/user15</item>
-        <item>@drawable/user16</item>
-        <item>@drawable/user17</item>
-        <item>@drawable/user18</item>
-        <item>@drawable/user19</item>
-        <item>@drawable/user20</item>
-        <item>@drawable/user21</item>
-        <item>@drawable/user22</item>
-        <item>@drawable/user23</item>
-        <item>@drawable/user24</item>
-        <item>@drawable/user25</item>
-        <item>@drawable/user26</item>
-        <item>@drawable/user27</item>
-        <item>@drawable/user28</item>
-        <item>@drawable/user29</item>
-        <item>@drawable/user30</item>
+    <string-array name="data_twitter">
+        <item>\@JakeWharton</item>
+        <item>\@amitiitbhu</item>
+        <item>\@romainguy</item>
+        <item>\@chrisbanes</item>
+        <item>No information available</item>
+        <item>No information available</item>
+        <item>\@jasoet</item>
+        <item>\@budioktaviyans</item>
+        <item>\@hendisantika34</item>
+        <item>No information available</item>
+        <item>\@ariflukmanbdg</item>
+        <item>No information available</item>
+        <item>No information available</item>
+        <item>\@erokhins239</item>
+        <item>No information available</item>
+        <item>\@dolzhenko</item>
+        <item>No information available</item>
+        <item>No information available.</item>
+        <item>\@beccadax</item>
+        <item>\@kadek_adiandrea</item>
+        <item>No information available.</item>
+        <item>\@huon_w</item>
+        <item>\@ALikhachev_</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
+        <item>No information available.</item>
     </string-array>
+
+    <string-array name="data_project">
+        <item>"JakeWharton doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"amitshekhariitbhu doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"romainguy doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"chrisbanes doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"tipsy doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"ravi8x doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"jasoet doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"budioktaviyan doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"hendisantika doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"sidiqpermana doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"jurpro doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"udalov doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"NataliaUkhorskaya doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"erokhins doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"petukhovv doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"vladimirdolzhenko doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"atrick doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"adrian-prantl doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"beccadax doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"dekzitfz doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"graydon doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"huonw doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"ALikhachev doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"shafirov doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"orangy doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"bibaev doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"projedi doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"madsager doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"asedunov doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+        <item>"dzharkov doesn\'t have any projects yet. 0 Open 0 Closed"</item>
+    </string-array>
+
+    <string-array name="data_packageGithub">
+        <item>10 packages</item>
+        <item>"amitshekhariitbhu doesn\'t have any packages yet."</item>
+        <item>"romainguy doesn\'t have any packages yet."</item>
+        <item>"chrisbanes doesn\'t have any packages yet."</item>
+        <item>"tipsy doesn\'t have any packages yet."</item>
+        <item>"ravi8x doesn\'t have any packages yet."</item>
+        <item>11 packages</item>
+        <item>"budioktaviyan doesn\'t have any packages yet."</item>
+        <item>"hendisantika doesn\'t have any packages yet."</item>
+        <item>"sidiqpermana doesn\'t have any packages yet."</item>
+        <item>"jurpro doesn\'t have any packages yet." </item>
+        <item>"udalov doesn\'t have any packages yet."</item>
+        <item>"NataliaUkhorskaya doesn\'t have any package yet."</item>
+        <item>"erokhins doesn\'t have any packages yet."</item>
+        <item>"petukhovv doesn\'t have any packages yet."</item>
+        <item>"vladimirdolzhenko doesn\'t have any packages yet."</item>
+        <item>"atrick doesn\'t have any packages yet."</item>
+        <item>"adrian-prantl doesn\'t have any packages yet."</item>
+        <item>"beccadax doesn\'t have any packages yet."</item>
+        <item>"dekzitfz doesn\'t have any packages yet."</item>
+        <item>"graydon doesn\'t have any packages yet."</item>
+        <item>"huonw doesn\'t have any packages yet."</item>
+        <item>"ALikhachev doesn\'t have any packages yet."</item>
+        <item>"shafirov doesn\'t have any packages yet."</item>
+        <item>"orangy doesn\'t have any packages yet."</item>
+        <item>"bibaev doesn\'t have any packages yet."</item>
+        <item>"projedi doesn\'t have any packages yet."</item>
+        <item>"madsager doesn\'t have any packages yet."</item>
+        <item>"asedunov doesn\'t have any packages yet."</item>
+        <item>"dzharkov doesn\'t have any packages yet."</item>
+    </string-array>
+
+    <string-array name="data_starsGithub">
+        <item>200</item>
+        <item>64</item>
+        <item>47</item>
+        <item>45</item>
+        <item>39</item>
+        <item>63</item>
+        <item>146</item>
+        <item>148</item>
+        <item>53</item>
+        <item>22</item>
+        <item>0</item>
+        <item>85</item>
+        <item>7</item>
+        <item>9</item>
+        <item>70</item>
+        <item>24</item>
+        <item>15</item>
+        <item>0</item>
+        <item>21</item>
+        <item>670</item>
+        <item>11</item>
+        <item>156</item>
+        <item>5</item>
+        <item>3</item>
+        <item>15</item>
+        <item>19</item>
+        <item>3</item>
+        <item>0</item>
+        <item>2</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="data_languageGithub">
+        <item>Kotlin, Java, Rust, HTML, Ruby, Shell, Phyton, Groovy.</item>
+        <item>Kotlin, JavaScript, Java, Swift.</item>
+        <item>C++, C, Kotlin, Ruby, JavaScript, Java</item>
+        <item>Kotlin, Java, Phyton, Shell, CSS, HTML, JavaScript, C.</item>
+        <item>Kotlin, CSS, Vue, Java, JavaScript, HTML, C#.</item>
+        <item>Kotlin, Java, Phyton, Swift</item>
+        <item>Kotlin, Go, Shell, HCL, Rust, Java, Scala, Ruby.</item>
+        <item>Kotlin, Java, Swift, Shell, HTML, Dart, Ruby, JavaScript</item>
+        <item>Kotlin, Java, Vue, PHP, JavaScript, HTML, Phyton, CSS.</item>
+        <item>Kotlin, Java, C++, C</item>
+        <item>PHP</item>
+        <item>Kotlin, Shell, Vim Script, Phyton, Rust, Ruby, C++, Java, Groovy, C, JavaScript</item>
+        <item>Kotlin, Java, JavaScript</item>
+        <item>Kotlin, Java, TeX, C, JavaScript</item>
+        <item>Kotlin, Java, Phyton, PHP, C++, JavaScript</item>
+        <item>Kotlin, Java, Shell, Ruby, JavaScript, R.</item>
+        <item>Swift, C++, LLVM, Phyton, C.</item>
+        <item>Swift, C++, Ruby</item>
+        <item>Swift, C++, Phyton, LLVM, C, Objective-C, Ruby, JavaScript</item>
+        <item>Kotlin, Java, Dart, Phyton, Swift, HTML, JavaScript, CSS, PHP</item>
+        <item>F#, C, Rust, Go, Phyton, C++, Shell, HTML, JavaScript, Perl</item>
+        <item>Java, CSS, Go, Shell, C++, HTML, C, Ruby, Rust, Phyton, JavaScript</item>
+        <item>Kotlin, Java, Groovy, Phyton, Shell, C++, C#, C, JavaScript</item>
+        <item>Kotlin, Java, C++, JavaScript</item>
+        <item>Kotlin, Java, JavaScript, C#, Phyton, Ruby, C, PHP, C++</item>
+        <item>Kotlin, Java, Phyton, C++, C#, Shell</item>
+        <item>Kotlin, C, CSS, HTML, Rust, Phyton, Haskell, Vim Script, C++, Nix, JavaScript, Assembly, Shell</item>
+        <item>Kotlin, Java, Groovy</item>
+        <item>Kotlin, Java</item>
+        <item>Kotlin, Java, Phyton, JavaScript, TeX, C++, Haskell</item>
+    </string-array>
+
+    <string-array name="data_achievements">
+        <item>"JakeWharton doesn\'t have any achievement yet."</item>
+        <item>"Arctic Code Vault Contributor. AMIT SHEKHAR contributed code to several repositories in the 2020 GitHub Archive Program: Trinea/android-open-project, jtoy/awesome-tensorflow, ujjwalkarn/Machine-Learning-Tutorials, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Romain Guy contributed code to several repositories in the 2020 GitHub Archive Program: square/leakcanary, google/filament, JetBrains/intellij-community, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Chris Banes contributed code to several repositories in the 2020 GitHub Archive Program: google/iosched, material-components/material-components-android, aosp-mirror/platform_frameworks_base, and more!"</item>
+        <item>"Arctic Code Vault Contributor. David (javalin.io) contributed code to several repositories in the 2020 GitHub Archive Program: tipsy/profile-summary-for-github, perwendel/spark, tipsy/javalin, and more!"</item>
+        <item>""Arctic Code Vault Contributor. Ravi Tamada contributed code to several repositories in the 2020 GitHub Archive Program: CocoaPods/Specs, ravi8x/Barcode-Reader, ravi8x/Android-Image-Picker-and-Cropping, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Deny Prasetyo contributed code to several repositories in the 2020 GitHub Archive Program: vert-x3/vertx-web, Litote/kmongo, arrow-kt/Category-Theory-for-Programmers.kt, and more!"</item>
+        <item>""Arctic Code Vault Contributor. Budi Oktaviyan contributed code to several repositories in the 2020 GitHub Archive Program: skillacademyid/programming-with-android, PacktPublishing/Hands-On-RESTful-Web-Services-with-Kotlin, Bhinneka/kotlin-script-example, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Hendi Santika contributed code to several repositories in the 2020 GitHub Archive Program: hendisantika/List-All-Programming-Telegram-Group, hendisantika/spring-boot-adminlte, hendisantika/HikariCP, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Sidiq Permana contributed code to 2 repositories in the 2020 GitHub Archive Program: sidiqpermana/DemoDynamicFeatureModule, and bluenumberfoundation/humanid-android-sdk."</item>
+        <item>jurpro doesn\'t have any achievement yet. </item>
+        <item>"Arctic Code Vault Contributor. Alexander Udalov contributed code to several repositories in the 2020 GitHub Archive Program: JetBrains/kotlin, Homebrew/brew, Homebrew/legacy-homebrew, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Natalia Selezneva contributed code to several repositories in the 2020 GitHub Archive Program: JetBrains/kotlin, Kotlin/kotlin-examples, JetBrains/kotlin-web-site, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Stanislav Erokhin contributed code to several repositories in the 2020 GitHub Archive Program: JetBrains/kotlin, JetBrains/intellij-community, Kotlin/kotlinx.coroutines, and more!"</item>
+        <item>petukhovv doesn\'t have any achievement yet.</item>
+        <item>"Mars 2020 Helicopter Contributor. Vladimir Dolzhenko contributed code to 1 repository used in the Mars 2020 Helicopter Mission: elastic/elasticsearch. \n Arctic Code Vault Contributor. Vladimir Dolzhenko contributed code to several repositories in the 2020 GitHub Archive Program: elastic/elasticsearch, JetBrains/kotlin, Homebrew/homebrew-cask, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Andrew Trick contributed code to several repositories in the 2020 GitHub Archive Program: apple/swift, apple/swift-evolution, llvm/llvm-project, and more!"</item>
+        <item>"Arctic Code Vault Contributor. @adrian-prantl contributed code to several repositories in the 2020 GitHub Archive Program: apple/swift, llvm/llvm-project, llvm-mirror/llvm, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Becca Royal-Gordon contributed code to several repositories in the 2020 GitHub Archive Program: apple/swift, apple/swift-evolution, apple/swift-package-manager, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Adi Andrea contributed code to several repositories in the 2020 GitHub Archive Program: project-travel-mate/Travel-Mate, wayanjimmy/wifian-dibali, dekzitfz/Bali-IT-Communities, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Graydon Hoare contributed code to several repositories in the 2020 GitHub Archive Program: rust-lang/rust, moby/moby, jedisct/libsodium, and more!"</item>
+        <item>"Mars 2020 Helicopter Contributor. Huon Wilson contributed code to 1 repository used in the Mars 2020 Helicopter Mission: python/cpython. \n Arctic Code Vault Contributor. Huon Wilson contributed code to several repositories in the 2020 GitHub Archive Program: rust-lang/rust, servo/servo, uutils/coreutils, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Alexander Likhachev contributed code to several repositories in the 2020 GitHub Archive Program: EssentialsX/Essentials, essentials/Essentials, ALikhachev/django-simpletwitchauth, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Maxim Shafirov contributed code to several repositories in the 2020 GitHub Archive Program: square/okhttp, JetBrains/kotlin, JetBrains/intellij-community, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Ilya Ryzhenkov contributed code to several repositories in the 2020 GitHub Archive Program: JetBrains/kotlin, JetBrains/intellij-community, ktorio/ktor, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Vitaliy Bibaev contributed code to several repositories in the 2020 GitHub Archive Program: JetBrains/kotlin, JetBrains/intellij-community, eugenyk/hpcourse, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Alexander Shabalin contributed code to several repositories in the 2020 GitHub Archive Program: NixOS/nixpkgs, airblade/vim-gitgutter, rust-lang/rust-clippy, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Mads Sig Ager contributed code to several repositories in the 2020 GitHub Archive Program: JetBrains/kotlin, chromium/chromium, dart-lang/sdk, and more!"</item>
+        <item>"Arctic Code Vault Contributor. @asedunov contributed code to several repositories in the 2020 GitHub Archive Program: JetBrains/kotlin, JetBrains/intellij-community, JetBrains/intellij-plugins, and more!"</item>
+        <item>"Arctic Code Vault Contributor. Denis Zharkov contributed code to several repositories in the 2020 GitHub Archive Program: JetBrains/kotlin, JetBrains/intellij-community, mockito/mockito, and more!"</item>
+    </string-array>
+
 </resources>

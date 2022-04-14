@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ujanglukmanbdg.githubtoday.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_searchUserActivity"
+            app:destination="@id/searchUserActivity" />
+        <action
+            android:id="@+id/action_nav_home_to_aboutMeActivity"
+            app:destination="@id/aboutMeActivity" />
+        <action
+            android:id="@+id/action_nav_home_to_listUserActivity"
+            app:destination="@id/listUserActivity" />
+        <action
+            android:id="@+id/action_nav_home_to_myFavoriteActivity"
+            app:destination="@id/myFavoriteActivity" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_flight"
+            app:destination="@id/nav_flight" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.ujanglukmanbdg.githubtoday.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_flight"
+        android:name="com.ujanglukmanbdg.githubtoday.ui.flight.FlightFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_flight" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.ujanglukmanbdg.githubtoday.fragment.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" >
+        <action
+            android:id="@+id/action_aboutUsFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <activity
+        android:id="@+id/searchUserActivity"
+        android:name="com.ujanglukmanbdg.githubtoday.activity.SearchUserActivity"
+        android:label="activity_search_user"
+        tools:layout="@layout/activity_search_user" />
+    <activity
+        android:id="@+id/aboutMeActivity"
+        android:name="com.ujanglukmanbdg.githubtoday.activity.AboutMeActivity"
+        android:label="AboutMeActivity" />
+    <activity
+        android:id="@+id/listUserActivity"
+        android:name="com.ujanglukmanbdg.githubtoday.activity.ListUserActivity"
+        android:label="activity_list_user"
+        tools:layout="@layout/activity_list_user" />
+    <activity
+        android:id="@+id/nav_themeActivity"
+        android:name="com.ujanglukmanbdg.githubtoday.ui.themes.ThemeActivity"
+        android:label="activity_theme"
+        tools:layout="@layout/activity_theme" />
+    <activity
+        android:id="@+id/myFavoriteActivity"
+        android:name="com.ujanglukmanbdg.githubtoday.ui.favorite.MyFavoriteActivity"
+        android:label="activity_my_favorite"
+        tools:layout="@layout/activity_my_favorite" />
+</navigation>

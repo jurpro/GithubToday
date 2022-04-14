@@ -12,17 +12,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GithubToday">
         <activity
-            android:name=".ListUserActivity"
+            android:name=".activity.AboutMeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DetailSearchUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SearchUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UserDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.themes.ThemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ListUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.favorite.MyFavoriteActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.GithubToday.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <nav-graph android:value="@navigation/mobile_navigation" />
         </activity>
+
     </application>
 
 </manifest>
